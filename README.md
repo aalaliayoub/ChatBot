@@ -7,8 +7,6 @@ Ce projet est une application de ChatBot qui utilise l'API générative (ici, vi
 - **Une interface graphique client** développée avec Tkinter et CustomTkinter, qui permet aux utilisateurs de s'inscrire, se connecter, envoyer des messages et consulter l'historique de leurs conversations.
 - **Un module utilitaire** pour le hachage et la vérification sécurisée des mots de passe à l'aide de bcrypt.
 
-## Structure du Projet
-
 ## Prérequis
 - **Python 3.x** (vérifiez la version recommandée)
 - **Modules Python** (à installer via pip) :
