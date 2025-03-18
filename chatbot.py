@@ -16,7 +16,7 @@ formatt = "utf-8"
 servire = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 servire.bind((server_ip, servire_port))
 servire.listen()
-print("server en ecoute ...........")
+print("serveur en ecoute ...........")
 clients=[]
 clients_email=[]
 global lastquestion
@@ -34,7 +34,7 @@ def to_markdown(text):
   final_text = "".join(cleaned_paragraphs)+" "
   return final_text
  
-genai.configure(api_key='AIzaSyBKlrSyXG1bpjUngIkknJ4Iloo670bHP7I')
+genai.configure(api_key='API_KEY')
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 global client
