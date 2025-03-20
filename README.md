@@ -22,3 +22,19 @@ Ce projet est une application de ChatBot qui utilise l'API générative (ici, vi
    ```bash
    git clone https://github.com/aalaliayoub/ChatBot.git
    cd ChatBot
+## Interface graphique
+
+<table>
+  <tr>
+    <td><img src="register.png" alt="Register" width="300"></td>
+    <td><img src="registerError.png" alt="Register Error" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="login.png" alt="Login" width="300"></td>
+    <td><img src="loginError.png" alt="Login Error" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="mainframe.png" alt="Mainframe" width="300"></td>
+    <td><img src="history.png" alt="History" width="300"></td>
+  </tr>
+</table>
